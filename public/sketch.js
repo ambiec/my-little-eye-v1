@@ -72,7 +72,7 @@ let h;
 
 //#Source: Dan Shiffman
 function setup() {
-  cnv = createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
   video = createCapture(VIDEO);
   video.hide();
 
